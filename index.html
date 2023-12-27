@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form-page">
+        <div class="inner-box">
+            <h1>Sign Up</h1>
+            <form onsubmit="validateForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="entry" required>
+    
+                <label for="email">Email id:</label>
+                <input type="email" id="email" class="entry" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="entry"  id="dob" required>
+    
+                <label for="pass1">Password:</label>
+                <input type="password" class="entry" id="pass1" required>
+
+                <label for="pass2">Confirm Password:</label>
+                <input type="password" class="entry" id="pass2" required>
+    
+                <div class="button-div">
+                    <button>Submit</button></div>
+                    <div id="successMessage" style="margin-top: 1em; font-weight: bold;"></div>
+            </form>
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 20px; background-color: #f2f2f2; margin-top: 20px;">
+        <p>Connect with me:  <a href="https://www.linkedin.com/in/h-athulkrishnan/" target="_blank" style="text-decoration: none;color: black;"><span style="font-weight: bolder;">@athul2003</span></a></p>
+    </footer>
+</body>
+</html>
